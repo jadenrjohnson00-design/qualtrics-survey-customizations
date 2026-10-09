@@ -13,7 +13,7 @@ When creating matrix grid questions regarding student classroom engagement metho
 * **Attribution:** The core architectural framework for this dynamic row-replacement script was adapted from open-source documentation provided by the Qualtrics Community / Developer Forums.
 
 ### 2. Contextual Field Visibility (`conditional-other-toggle.js`)
-* **Objective:** Dynamically generate and reveal a text box only when a participant selects the "Other" checkbox within a specific course matrix row. Reveal which engagement methods participants practice depending on the class, if said practice is not listed in our survey.
+* **Objective:** Dynamically generate and reveal a text box only when a participant selects the "Other" checkbox within a specific course matrix row. Reveal which engagement methods participants practice depending on the class if said practice is not listed in our survey.
 * **Methodological Impact:** Keeps the survey layout compact and visually appealing. It prevents overwhelming participants with empty text boxes or choice points while still gathering both qualitative and quantitative data. Reduces fatigue from recalling which methods they partake in depending on the class. 
 
 ## Implementation Instructions
