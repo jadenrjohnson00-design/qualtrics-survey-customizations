@@ -1,20 +1,20 @@
 # Qualtrics Survey Optimizations for Social Research on Education Class Times
 
 ## Project Overview
-This repository contains a collection of JavaScript scripts deployed within Qualtrics to enhance the participant experience, minimize survey fatigue, and maximize data validity for longitudinal educational research. 
+This repository contains a collection of JavaScript scripts deployed within Qualtrics to enhance participant experience, minimize survey fatigue, and maximize data validity for our educational research. 
 
-When deploying complex matrix grids regarding student classroom engagement, standard survey layouts often introduce cognitive clutter. This project utilizes customized web scripts to streamline user interfaces and capture granular qualitative data dynamically.
+When creating matrix grid questions regarding student classroom engagement methods, standard survey layouts often introduce overwhelming layouts and lead to cognitive fatigue. This project synthesized web scripts to simplify user experience, allowing us to record and analyze qualitative data faster.
 
 ## Research Methodology & Survey Enhancements
 
 ### 1. Dynamic Choice Recoding (`dynamic-class-names.js`)
-* **Objective:** Personalize matrix table rows dynamically based on prior open-ended user inputs.
-* **Methodological Impact:** Instead of forcing participants to map their answers to abstract placeholders (e.g., "Class 1", "Class 2"), this script injects the participant's actual inputted course names directly into the matrix rows. This reduces cognitive load, prevents alignment errors, and ensures higher contextual accuracy in responses.
+* **Objective:** Personalize matrix table rows dynamically based on previous open-ended user answers (class names).
+* **Methodological Impact:** Instead of requiring participants to map their answers in the following questions (e.g., "Class 1", "Class 2"), this script projects the participant's actual inputted course names directly into the matrix rows. This reduces cognitive load, ensures higher response accuracy, and increases survey completion rates.
 * **Attribution:** The core architectural framework for this dynamic row-replacement script was adapted from open-source documentation provided by the Qualtrics Community / Developer Forums.
 
 ### 2. Contextual Field Visibility (`conditional-other-toggle.js`)
-* **Objective:** Dynamically generate and reveal a text clarification box only when a participant selects the "Other" checkbox within a specific course matrix row.
-* **Methodological Impact:** Keeps the survey instrument compact and visually clean. It prevents overwhelming participants with dozens of empty conditional text boxes upfront while still seamlessly gathering qualitative, open-ended explanations on demand.
+* **Objective:** Dynamically generate and reveal a text box only when a participant selects the "Other" checkbox within a specific course matrix row. Reveal which engagement methods participants practice depending on the class, if said practice is not listed in our survey.
+* **Methodological Impact:** Keeps the survey layout compact and visually appealing. It prevents overwhelming participants with empty text boxes or choice points while still gathering both qualitative and quantitative data. Reduces fatigue from recalling which methods they partake in depending on the class. 
 
 ## Implementation Instructions
 To reproduce these layout optimizations in a Qualtrics environment:
