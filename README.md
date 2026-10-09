@@ -1,4 +1,4 @@
-# Qualtrics Survey Optimizations for Social Research on Education Class Times
+# Qualtrics Survey Optimizations for Educational Social Research on Class Lengths
 
 ## Project Overview
 This repository contains a collection of JavaScript scripts deployed within Qualtrics to enhance participant experience, minimize survey fatigue, and maximize data validity for our educational research. 
