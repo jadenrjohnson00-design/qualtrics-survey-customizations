@@ -18,3 +18,5 @@ To reproduce these layout optimizations in a Qualtrics environment:
 1. Copy the contents of the desired `.js` script.
 2. In the Qualtrics Survey Builder, select the targeted question block and open the JavaScript Editor (or inject via `<script>` tags in the HTML View of the question text).
 3. Paste the code into the `addOnReady` or `addOnload` function blocks as documented within the script files.
+
+Surveys are dedicated to educational social research. This repository was developed as part of an undergraduate research project for SOCI 239 (Introduction to Social Research) at Simmons University.
